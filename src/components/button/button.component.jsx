@@ -13,9 +13,9 @@ const BUTTON_TYPES_CLASSES = {
     
 }
 
-const Button = ({children, buttonType}) =>{
+const Button = ({children, buttonType, onClick, type}) =>{
     return (
-        <button className={`button-container ${BUTTON_TYPES_CLASSES[buttonType]}`}>{children}</button>
+        <button type={type} onClick={onClick} className={`button-container ${BUTTON_TYPES_CLASSES[buttonType]}`}>{children}</button>
     )
 }
 
