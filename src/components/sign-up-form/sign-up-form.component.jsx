@@ -18,7 +18,7 @@ const SignUpForm = () => {
     const {displayName, email, password, confirmPassword} = formFields;
     
   
-    console.log('hit')
+   // console.log('hit')
   //  const {setCurrentUser} = useContext(UserContext)
     const resetFormFields = () =>{
         setFormFields(defaultFormFields)
